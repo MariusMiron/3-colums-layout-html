@@ -1,0 +1,39 @@
+.header {
+    background-color: bisque;
+}
+.content-wrapper {
+  height: 100px;
+    
+}
+.content-wrapper .sidebar-left {
+ background-color: red;   
+float: left;
+    height: 100%;
+    width: 15%;
+}
+
+
+.content-wrapper .content-main {
+ background-color :fuchsia; 
+float: left;
+    height: 100%;
+    width: 70%;
+}
+
+.content-wrapper  .sidebar-right {
+ background-color:grey;  
+float: right; 
+height: 100%;
+width: 15%;
+}
+
+    
+    
+.footer {
+    background-color: aqua;
+    clear: both;
+}
+
+
+
+
