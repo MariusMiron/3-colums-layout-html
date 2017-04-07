@@ -1,12 +1,19 @@
+html, body {
+    height: 100%;
+    background-image: url("https://il6.picdn.net/shutterstock/videos/2438609/thumb/1.jpg" );
+    background-size: cover;
+}
+
 .header {
     background-color: bisque;
 }
 .content-wrapper {
-  height: 100px;
+  height: 100%;
     
 }
+
 .content-wrapper .sidebar-left {
- background-color: red;   
+ background-color: cornflowerblue;   
 float: left;
     height: 100%;
     width: 15%;
@@ -34,6 +41,9 @@ width: 15%;
     clear: both;
 }
 
+.content-wrapper .sidebar-left a {
+    display:block;
+}
 
 
 
